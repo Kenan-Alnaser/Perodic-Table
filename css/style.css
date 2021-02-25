@@ -85,3 +85,6 @@ td:hover {
   transform: scale(2);
   z-index: 1;
 }
+td:empty {
+  transform: scale(0);
+}
