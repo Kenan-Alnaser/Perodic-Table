@@ -1,0 +1,129 @@
+tr td {
+  width: 20vw;
+  height: 7vh;
+  text-align: center;
+}
+td {
+  border: 1px black solid;
+  border-radius: 5px;
+}
+tr:nth-child(1) :nth-child(n + 2):nth-child(-n + 17) {
+  border: none;
+  background-color: white;
+}
+tr:nth-child(2) :nth-child(n + 3):nth-child(-n + 12) {
+  border: none;
+  background-color: white;
+}
+tr:nth-child(3) :nth-child(n + 3):nth-child(-n + 12) {
+  border: none;
+  background-color: white;
+}
+tr:nth-child(8) :nth-child(1),
+tr:nth-child(8) :nth-child(n + 16):nth-child(-n + 18) {
+  border: none;
+  background-color: white;
+}
+tr:nth-child(9) :nth-child(1),
+tr:nth-child(9) :nth-child(n + 16):nth-child(-n + 18) {
+  border: none;
+  background-color: white;
+}
+td:nth-child(1) {
+  background-color: rgba(70, 117, 173, 0.582);
+}
+tr:nth-child(1) :first-child {
+  background-color: yellow;
+}
+td:nth-child(2) {
+  background-color: rgba(235, 202, 152, 0.911);
+}
+tr:nth-child(8) :nth-child(2) {
+  background-color: skyblue;
+}
+tr:nth-child(8) {
+  background-color: skyblue;
+}
+tr:nth-child(9) :nth-child(2) {
+  background-color: rgb(10, 139, 139);
+}
+tr:nth-child(9) {
+  background-color: rgb(10, 139, 139);
+}
+tr:nth-child(7) :nth-child(3) {
+  background-color: rgb(10, 139, 139);
+}
+tr:nth-child(6) :nth-child(3) {
+  background-color: skyblue;
+}
+tr:nth-child(7) :nth-child(n + 4):nth-child(-n + 12) {
+  background-color: darkolivegreen;
+}
+tr:nth-child(6) :nth-child(n + 4):nth-child(-n + 12) {
+  background-color: darkolivegreen;
+}
+tr:nth-child(5) :nth-child(n + 3):nth-child(-n + 12) {
+  background-color: darkolivegreen;
+}
+tr:nth-child(4) :nth-child(n + 3):nth-child(-n + 12) {
+  background-color: darkolivegreen;
+}
+tr:nth-child(3) :nth-child(13) {
+  background-color: pink;
+}
+tr:nth-child(4) :nth-child(13) {
+  background-color: pink;
+}
+tr:nth-child(5) :nth-child(n + 13):nth-child(-n + 14) {
+  background-color: pink;
+}
+tr:nth-child(6) :nth-child(n + 13):nth-child(-n + 15) {
+  background-color: pink;
+}
+tr:nth-child(7) :nth-child(n + 13):nth-child(-n + 14) {
+  background-color: pink;
+}
+tr:nth-child(2) :nth-child(13) {
+  background-color: rgb(226, 159, 104);
+}
+tr:nth-child(3) :nth-child(14) {
+  background-color: rgb(226, 159, 104);
+}
+tr:nth-child(4) :nth-child(n + 14):nth-child(-n + 15) {
+  background-color: rgb(226, 159, 104);
+}
+tr:nth-child(5) :nth-child(n + 15):nth-child(-n + 16) {
+  background-color: rgb(226, 159, 104);
+}
+tr:nth-child(6) :nth-child(16) {
+  background-color: rgb(226, 159, 104);
+}
+td:nth-child(17) {
+  background-color: rgb(133, 90, 50);
+}
+tr:nth-child(7) :nth-child(17) {
+  background-color: rgba(70, 117, 173, 0.582);
+}
+tr:nth-child(7) :nth-child(15) {
+  background-color: rgb(133, 90, 50);
+}
+tr:nth-child(7) :nth-child(16) {
+  background-color: violet;
+}
+td:nth-child(18) {
+  background-color: violet;
+}
+tr:nth-child(7) :nth-child(18) {
+  background-color: rgba(235, 202, 152, 0.911);
+}
+tr:nth-child(2) :nth-child(n + 14):nth-child(-n + 16) {
+  background-color: yellow;
+}
+tr:nth-child(3) :nth-child(n + 15):nth-child(-n + 16) {
+  background-color: yellow;
+}
+tr:nth-child(4) :nth-child(16) {
+  background-color: yellow;
+}
+td:hover {
+}
