@@ -34,12 +34,12 @@ td:nth-child(2) {
   background-color: rgba(235, 202, 152, 0.911);
 }
 tr:nth-child(8) :nth-child(2),
-tr:nth-child(8) {
+tr:nth-child(8) :nth-child(n + 2):nth-child(-n + 15) {
   background-color: skyblue;
 }
 
 tr:nth-child(9) :nth-child(2),
-tr:nth-child(9),
+tr:nth-child(9) :nth-child(n + 2):nth-child(-n + 15),
 tr:nth-child(7) :nth-child(3) {
   background-color: rgb(10, 139, 139);
 }
