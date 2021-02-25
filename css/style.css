@@ -69,19 +69,14 @@ tr:nth-child(5) :nth-child(n + 15):nth-child(-n + 16),
 tr:nth-child(6) :nth-child(16) {
   background-color: rgb(226, 159, 104);
 }
-
-td:nth-child(17) {
-  background-color: rgb(133, 90, 50);
-}
 tr:nth-child(7) :nth-child(17) {
   background-color: rgba(70, 117, 173, 0.582);
 }
-tr:nth-child(7) :nth-child(15) {
+tr:nth-child(7) :nth-child(15),
+td:nth-child(17) {
   background-color: rgb(133, 90, 50);
 }
-tr:nth-child(7) :nth-child(16) {
-  background-color: violet;
-}
+tr:nth-child(7) :nth-child(16),
 td:nth-child(18) {
   background-color: violet;
 }
